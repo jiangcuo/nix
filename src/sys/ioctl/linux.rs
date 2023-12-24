@@ -24,7 +24,9 @@ cfg_if! {
         target_arch = "mips64r6",
         target_arch = "powerpc",
         target_arch = "powerpc64",
-        target_arch = "sparc64"
+        target_arch = "sparc64",
+        target_arch = "loongarch64",
+        target_arch = "riscv64"
     ))] {
         mod consts {
             #[doc(hidden)]
